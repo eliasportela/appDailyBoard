@@ -1,0 +1,31 @@
+ <ion-modal-view>
+   <ion-header-bar class="item-button-right">
+    <div>
+      <h4 class="title">Editar Cidade</h4>
+    </div>
+    <button 
+      class="button button-icon ion-ios-close-empty" 
+      ng-click="closeEdit()">
+    </button>
+   </ion-header-bar>
+   <ion-content>
+
+  <ion-list>
+    <a menu-close ng-click="openModal()">
+      <label class="item item-icon-right">
+        <i class="icon ion-plus"></i>
+        Estado
+      </label>
+    </a>
+    <label class="item item-input">
+      <span class="input-label">Cidade</span>
+      <input type="text" ng-model="editcid.nome">
+    </label>
+    <div class="padding">
+      <button class="button button-block button-dark" ng-click="atualiza()"> 
+      Editar 
+      </button>
+    </div>
+  </ion-list>
+  </ion-content>
+ </ion-modal-view>

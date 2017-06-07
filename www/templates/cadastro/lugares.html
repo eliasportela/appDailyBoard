@@ -1,0 +1,32 @@
+ <ion-modal-view>
+   <ion-header-bar>
+      <button 
+      class="button button-icon ion-ios-close-empty" 
+      ng-click="close()">
+    </button>
+    <div class="buttons">
+      <h1 class="title">Cadastrar de Lugares</h1>
+    </div>
+   </ion-header-bar>
+   <ion-content class="padding">
+  <ion-list>
+    <ion-item class="item-divider">Escolha o tipo do Lugar cadastrado</ion-item>
+    <ion-radio ng-model="lug.tipo" ng-value="1">Restaurante</ion-radio>
+    <ion-radio ng-model="lug.tipo" ng-value="2">Lugares</ion-radio>
+    <ion-radio ng-model="lug.tipo" ng-value="3">Ponto Turistico</ion-radio>
+    
+    <ion-item class="item-divider">Informações Cadastrais</ion-item>
+     <label class="item item-input">
+      <input type="text" placeholder="Nome" ng-model="lug.nome">
+     </label>
+
+     <label class="item item-input">
+      <input type="text" placeholder="Descrição" ng-model="lug.qtde">
+     </label>
+
+  <button class="button button-block button-dark" ng-click="atualiza()"> 
+    Cadastrar 
+  </button>
+
+   </ion-content>
+ </ion-modal-view>

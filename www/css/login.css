@@ -1,0 +1,96 @@
+
+/* boas vindas */
+
+.bv-custom {
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/fundo.jpg);
+	background-color: rgba(0,0,0,0.3);
+	background-blend-mode: multiply;
+}
+.logo-icon {
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	margin-top: 20%;
+}
+.logo {
+	font-family: 'kalam';
+	text-align: center;
+	font-size: 45px;
+	color: #fff;
+	padding-top: 40px;
+}
+.btn-comecar{
+	margin-top: 60%;
+}
+.button.button-positive {
+    border-color: transparent;
+    background-color: #940d02;
+    color: #fff;
+    font-size: 20px;
+}
+.button.button-positive.activated {
+    background-color: #940d02;
+}
+.bv-item {
+	background: none;
+	border: none;
+}
+
+/* Login */
+
+.login-form {
+	width: 85%;
+	margin: auto;
+	position: relative;
+	top: 48%;
+	transform: translateY(-50%);
+	border: 2px solid #fff;
+	padding-bottom: 40px;
+	background-color: rgba(0,0,0,0.6);
+}
+.item{
+	background: none;
+	border: none;
+	width: 90%;
+	position: relative;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.item-input {
+	border-bottom: 2px solid #fff;
+}
+.item-input i {
+	font-size: 30px;
+	color: #fff;
+}
+.item-input input {
+	font-size: 16px;
+	margin-left: 10px;
+	color: #fff;
+}
+.logo-login{
+	font-size: 24px;
+}
+.btn-login {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+/* Menu Principal */
+
+.item-principal {
+    border: none;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #940d02;
+    text-align: center;
+    height: 70px;
+    margin-top: 10%;
+}.item-principal h2{
+	color: #fff;
+	font-size: 24px;
+	font-family: 'kalan';
+}

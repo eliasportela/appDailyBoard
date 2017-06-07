@@ -1,0 +1,56 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-dark" align-title="center">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-calm">
+      <h1 class="title">Menu</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-item menu-close class="item item-avatar-left item-icon-right">
+        <img src="img/elias.jpg">
+        <h3 style="font-size:20px;">Elias Douglas</h3>
+        <i class="icon ion-edit" style="font-size:20px;"></i>
+      </ion-item>
+      <ion-item menu-close class="item item-icon-left" href="#/cidades">
+        <i class="icon ion-home"></i>
+        Home
+      </ion-item>
+      <ion-list>
+        <div style="padding-left:16px;padding-top:16px">
+          <h4>Cadastros</h4>
+        </div>
+        <ion-item menu-close href="#/app/cadastrar-cidade" class="item-icon-left">
+          <i class="icon ion-flag"></i>
+          Cidades
+        </ion-item>
+        <ion-item menu-close href="#/app/cidades" class="item-icon-left">
+          <i class="icon ion-location"></i>
+          Lugares
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <div style="padding-left:16px;padding-top:16px">
+          <h4>Conta</h4>
+        </div>
+        <ion-item menu-close href="#/app/cidades" class="item-icon-left">
+          <i class="icon ion-gear-a"></i>
+          Configurações
+        </ion-item>
+        <ion-item menu-close ng-click="login()" class="item-icon-left">
+          <i class="icon ion-log-out"></i>
+          Logout
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

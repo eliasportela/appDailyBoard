@@ -1,0 +1,19 @@
+ <ion-modal-view>
+   <ion-header-bar class="item-button-right">
+    <div>
+      <h4 class="title">Selecione o Estado</h4>
+    </div>
+    <button 
+      class="button button-icon ion-ios-close-empty" 
+      ng-click="closeModal()">
+    </button>
+   </ion-header-bar>
+   <ion-content class="padding">
+    <ion-list>
+      <ion-radio ng-repeat="estado in estados" ng-model="est.val" ng-value="{{estado.id_state}}">{{estado.name_state}}</ion-radio>
+      <button class="button button-block button-dark" ng-click="selecionaEstado()"> 
+        Selecionar 
+      </button>
+    </ion-list>
+   </ion-content>
+ </ion-modal-view>

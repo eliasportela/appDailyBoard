@@ -1,0 +1,26 @@
+Tela Inicial
+	* Login Usuario (Entrar com o Facebook)
+
+Tela Cidades
+	* campo de busca de cidades
+	* lista com as cidades
+
+Tela Cidade
+	* Nome da cidade
+	* Filtro (Restaurantes, lanchonetes, bares, boates, pontos turisticos)
+	* Ranking do Filtro (Avaliacao de 0/6)
+
+Tela Lugar
+	* Nome do lugar
+	* Avaliacoes dos usuarios
+	* Descricao, Telefone, Site
+	* Fotos
+	* Opcao de dar a nota ao local (Igual a play store) pos Curtir do face
+	* Comentarios dos Usuarios
+
+Tela Perfil
+	* Foto
+	* Nome
+	* Melhores lugares
+	* Ultimas Avaliações
+	* Cadastrar Lugar
